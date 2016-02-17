@@ -1,0 +1,10 @@
+DUMP ON
+LIT 7 i
+ARGS 1
+CALL increment
+HALT
+LABEL increment
+LIT 7 m
+LIT 1
+BOP +
+RETURN increment
